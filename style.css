@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.icon-container {
+  margin-right: 5px;
+}
+
+.search-icon {
+  margin-right: 10px;
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.login-icon {
+  margin-right: 10px;
+}
+
+.section-height {
+  height: 250px;
+}
+@media screen and (min-width: 600px) {
+  .section-height {
+    height: 300px;
+  }
+}
+
+.phone-ad {
+  background-image: url("iphone-16-demo2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-con {
+  height: 100%;
+}
+
+.apple-icon {
+  color: white;
+  font-size: 25px;
+  margin: 5px;
+  margin-top: 8px;
+}
+
+.iphone-tag {
+  color: white;
+  font-size: 28px;
+  font-family: "Roboto";
+}
+
+.iphone-intro {
+  margin-left: 18px;
+}
+
+.iphone-intro-tag {
+  color: white;
+  font-size: 26px;
+}
+
+.iphone-intro-tag2 {
+  color: white;
+  font-size: 20px;
+}
+
+.iphone-para {
+  color: white;
+  font-size: 13px;
+}
+
+.more-info {
+  margin-top: 1px;
+  height: 20px;
+  width: 65px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: rgb(37, 37, 68);
+  border-width: 0px;
+  color: white;
+  font-size: 8px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+.navbar-container {
+  background-color: black;
+  width: 100%;
+  backdrop-filter: blur(500);
+  position: relative;
+  padding: 3px;
+}
+
+.list-containe {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.list-items {
+  text-decoration: none !important;
+  color: black !important;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.main-logo {
+  position: absolute;
+  color: white !important;
+  left: 0px;
+  margin-left: 3px;
+}
+
+.ham {
+  border: 1px solid gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.ham-bar {
+  font-size: 20px;
+  color: white;
+}
+
+.search-icon {
+  margin-right: 8px;
+  font-size: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+.login-icon {
+  margin-right: 8px;
+  color: white !important;
+}
+
+.side-menu {
+  background-color: gray;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(220, 187, 187);
+  display: none;
+  height: 65vh;
+  width: 55vw;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
+.animation-sidemenu {
+  animation: show 0.2s linear;
+}
+
+.show-side-menu {
+  display: block;
+}
+
+.side-menu-list {
+  color: white;
+  font-size: 25px;
+}
+
+.close-icon-container {
+  background-color: white;
+  height: 60px;
+  padding-top: 8px;
+}
+
+.offer2-con {
+  height: 150px;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+.catagory {
+  background-color: #ffffff;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+.product-catagory {
+  background-color: #ffd4b3;
+  display: flex;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.catagory:hover {
+  background-color: #ffe7d4;
+  transition-duration: 0.2s;
+}
+
+.catagory:hover i {
+  transform: rotateX(0deg) translateY(-20px) scale(1.5);
+  margin: 11px;
+  padding: 2px;
+  transition-duration: 0.3s;
+}
+
+.catagory:hover .catagory-name {
+  display: block;
+}
+
+.catagory-name {
+  color: #000000;
+  font-weight: bold;
+}
+
+.deals-of-today-container {
+  background-color: rgb(255, 160, 192);
+  padding: 15px 15px 5px 5px;
+}
+
+.product-container {
+  /* box-shadow: 0px 0px 8px 8px gray;  */
+  border: 2px solid lightgray;
+  background-color: #ffffff;
+  height: clamp(175px, 20vh, 215px);
+  width: clamp(220px, 25vw, 225px);
+  padding: 15px;
+  border-radius: 6px;
+  border: 2px solid gray;
+}
+
+.product-cost {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 600;
+}
