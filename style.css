@@ -251,3 +251,13 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
+
+.view-more-anchor {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.view-more-anchor:hover {
+  text-decoration: underline !important;
+  color: rgb(29, 166, 245) !important;
+}
