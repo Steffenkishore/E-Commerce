@@ -227,7 +227,6 @@ body {
 }
 
 .deals-of-today-container {
-  background-color: rgb(255, 160, 192);
   padding: 15px 15px 5px 5px;
 }
 
@@ -235,9 +234,9 @@ body {
   /* box-shadow: 0px 0px 8px 8px gray;  */
   border: 2px solid lightgray;
   background-color: #ffffff;
-  height: clamp(175px, 20vh, 215px);
+  min-height: 180px;
   width: clamp(220px, 25vw, 225px);
-  padding: 15px;
+  padding: 10px;
   border-radius: 6px;
   border: 2px solid gray;
 }
@@ -250,6 +249,10 @@ body {
 .product-name {
   font-size: 14px;
   font-weight: 600;
+}
+
+.Product-image {
+  height: 90px;
 }
 
 .view-more-anchor {
