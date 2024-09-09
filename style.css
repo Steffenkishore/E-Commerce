@@ -34,6 +34,11 @@
   width: 100%;
 }
 
+.carousel {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -153,7 +158,7 @@ body {
 }
 
 .product-catagory {
-  background-color: #ffd4b3;
+  /* background-color: #ffd4b3;  */
   display: flex;
   overflow-x: scroll;
 }
