@@ -194,13 +194,16 @@ body {
 
 .product-container {
   /* box-shadow: 0px 0px 8px 8px gray;  */
-  border: 2px solid lightgray;
   background-color: #ffffff;
   height: 210px;
   width: clamp(220px, 25vw, 225px);
   padding: 10px;
   border-radius: 6px;
-  border: 2px solid gray;
+}
+
+.img-container {
+  background-color: rgb(247, 247, 247);
+  padding-top: 10px;
 }
 
 .product-cost {
@@ -214,7 +217,10 @@ body {
 }
 
 .Product-image {
-  height: 90px;
+  height: clamp(10vh, 16vh, 20vh);
+  width: clamp(10vh, 16vh, 20vh);
+  margin-bottom: 25px;
+  margin-top: 5px;
 }
 
 .view-more-anchor {
